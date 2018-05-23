@@ -2,8 +2,11 @@ link, date, publisher, title, topic
 https://www.sciencedaily.com/releases/2018/03/180312115501.htm, "March 12, 2018", Science Daily, Unlimited capacity in wireless networks with massive MIMO, 5G
 http://news.mit.edu/2018/depth-sensing-imaging-system-can-peer-through-fog-0321, "March 20, 2018", MIT News Office, Depth-sensing imaging system can peer through fog, Fog piercing imaging
 https://www.computer.org/web/data-center-insider/content?g=55674596&type=article&urlTitle=how-hybrid-it-enhances-market-agility, "March 24, 2018", Computing Now, How Hybrid IT Enhances Market Agility, Hybrid IT allows more operations with less cost
-https://www.technologyreview.com/s/611146/the-us-military-is-funding-an-effort-to-catch-deepfakes-and-other-ai-trickery/, "May 23, 2018", MIT Technology News, The US military is funding an effort to catch deepfakes and other AI trickery, jkl
-https://www.technologyreview.com/s/611139/the-worlds-first-quantum-software-superstore-or-so-it-hopes-is-here/, "May 17, 2018", MIT Technology News, The world’s first quantum software superstore—or so it hopes—is here, asdf
+https://www.technologyreview.com/s/611146/the-us-military-is-funding-an-effort-to-catch-deepfakes-and-other-ai-trickery/, "May 23, 2018", MIT Technology Review, The US military is funding an effort to catch deepfakes and other AI trickery, jkl
+https://www.technologyreview.com/s/611139/the-worlds-first-quantum-software-superstore-or-so-it-hopes-is-here/, "May 17, 2018", MIT Technology Review, The world’s first quantum software superstore—or so it hopes—is here, asdf
 https://www.sciencedaily.com/releases/2018/05/180517163327.htm, "May 17, 2018", Science Daily, What's trending in fake news? Tool show what stories go viral, and if bots are to blame, adf
 https://www.independent.co.uk/life-style/gadgets-and-tech/news/polaris-mit-program-system-faster-webpage-website-page-loading-science-a6921521.html, "March 9, 2016", Independent CS News, New MIT-Developed system san make webpages load 34% faster in any browser, asdf
 https://www.wired.com/story/computer-science-graduates-diversity/, "March 27, 2018", Wired, Women and Minorities in Tech, by the Numbers, kjh
+https://www.sciencedaily.com/releases/2018/05/180509185457.htm, "May 9, 2018", Science Daily, Computer-designed customized regenerative heart valves, ghjk
+https://www.sciencedaily.com/releases/2018/05/180503142759.htm, "May 3, 2018", Science Daily, Atomically thin magnetic device could lead to new memory technologies, asd
+https://www.technologyreview.com/s/611153/specialized-chips-are-threatening-to-take-over-cryptocurrencies-and-they-look-unstoppable/, "May 17, 2018", MIT Technology Review, Specialized chips are threatening to take over cryptocurrencies, and they look unstoppable, asd
