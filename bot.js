@@ -1,3 +1,5 @@
+var request = require('request');
+var parse = require('csv-parse');
 console.log('The Bot is starting');
 var Papa = require('papaparse');
 var Twit = require('twit');
@@ -10,52 +12,46 @@ consumer_key:
   '977179081723740166-DQy6H9nUFhmiq1CQoMWeY3s5ZQo7DtK', 
   access_token_secret:  
   'y9sBkrWh8ouoXWXczknobXwT2DEd35LiNrsVkH4PC7JgX',
-
-
-
-
- 
   timeout_ms:           
   60*1000,
 }
 );
 
-
-
-
-Papa.parse("articles.txt", {
-	complete: function(results) {
-		console.log("Finished:", results.data);
+var tracker=-1;
+function checkArticles() {
+  request.get('https://raw.githubusercontent.com/20blactr/APCSP-News/master/articles.txt', function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      parse(body, {columns: true, trim: true}, function(err, rows) {
+        console.log();
+        console.log("articles found:   " + rows.length);
+	tracker++;
+        var selectedArticle = tracker;
+	//var random=Math.floor(Math.random()*1000);
+        console.log("random article:   " + rows[selectedArticle].title);
+	var tweet = {
+        status: 
+	rows[selectedArticle].link + " " + rows[selectedArticle].title + "-" + rows[selectedArticle].publisher + " " + "(" + rows[selectedArticle].date + ")"}                                    
+	T.post('statuses/update', tweet, tweeted);
+	if (tracker>=rows.length-1){
+	  tracker=-1;
 	}
-});
-//var fs = require('fs');
-//fs.readFile('articles.txt', 'utf8', function(err, data) {
-//  if (err) throw err;
-//  console.log('OK');
-//  console.log(data);
-  
-//});
+		
+      })
+    }
+  });
+};
+
+function run() {
+  setInterval(checkArticles, 300*1000);
+};
+
+run();
+function tweeted(err, data, response) {
+if (err) {
+  console.log("Something went wrong!");
+        } else {
+          console.log("It worked!");
+        }
+}
 
 
-
-
-
-//tweetIt();
-//setInterval(tweetIt,1000*30)
-//function tweetIt() {
-//  var r = Math.floor(Math.random()*100);
-//  var tweet = {
-//  status: 
-//  'here is a random number:' + r
-//}
-
-//T.post('statuses/update', tweet, tweeted);
-
-//function tweeted(err, data, response) {
-//  if (err) {
-//    console.log("Something went wrong!");
-//  } else {
-//    console.log("It worked!");
-//  }
-//}
-//}
