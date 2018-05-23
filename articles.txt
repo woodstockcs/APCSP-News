@@ -2,3 +2,6 @@ link, date, publisher, title, topic
 https://www.sciencedaily.com/releases/2018/03/180312115501.htm, "March 12, 2018", Science Daily, Unlimited capacity in wireless networks with massive MIMO, 5G
 http://news.mit.edu/2018/depth-sensing-imaging-system-can-peer-through-fog-0321, "March 20, 2018", MIT News Office, Depth-sensing imaging system can peer through fog, Fog piercing imaging
 https://www.computer.org/web/data-center-insider/content?g=55674596&type=article&urlTitle=how-hybrid-it-enhances-market-agility, "March 24, 2018", Computing Now, How Hybrid IT Enhances Market Agility, Hybrid IT allows more operations with less cost
+https://www.technologyreview.com/s/611146/the-us-military-is-funding-an-effort-to-catch-deepfakes-and-other-ai-trickery/, "May 23, 2018", MIT Technology News, The US military is funding an effort to catch deepfakes and other AI trickery, jkl
+https://www.technologyreview.com/s/611139/the-worlds-first-quantum-software-superstore-or-so-it-hopes-is-here/, "May 17, 2018", MIT Technology News, The world’s first quantum software superstore—or so it hopes—is here, asdf
+https://www.sciencedaily.com/releases/2018/05/180517163327.htm, "May 17, 2018", Science Daily, 
