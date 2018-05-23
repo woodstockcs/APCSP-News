@@ -9,4 +9,4 @@ https://www.independent.co.uk/life-style/gadgets-and-tech/news/polaris-mit-progr
 https://www.wired.com/story/computer-science-graduates-diversity/, "March 27, 2018", Wired, Women and Minorities in Tech, by the Numbers, kjh
 https://www.sciencedaily.com/releases/2018/05/180509185457.htm, "May 9, 2018", Science Daily, Computer-designed customized regenerative heart valves, ghjk
 https://www.sciencedaily.com/releases/2018/05/180503142759.htm, "May 3, 2018", Science Daily, Atomically thin magnetic device could lead to new memory technologies, asd
-https://www.technologyreview.com/s/611153/specialized-chips-are-threatening-to-take-over-cryptocurrencies-and-they-look-unstoppable/, "May 17, 2018", MIT Technology Review, Specialized chips are threatening to take over cryptocurrencies, and they look unstoppable, asd
+https://www.technologyreview.com/s/611153/specialized-chips-are-threatening-to-take-over-cryptocurrencies-and-they-look-unstoppable/, "May 17, 2018", MIT Technology Review, "Specialized chips are threatening to take over cryptocurrencies, and they look unstoppable", asd
