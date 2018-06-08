@@ -16,10 +16,11 @@ consumer_key:
   60*1000,
 }
 );
+const PORT = process.env.PORT || 5000;
 
 var tracker=-1;
 function checkArticles() {
-  request.get('https://raw.githubusercontent.com/20blactr/APCSP-News/master/articles.txt', function (error, response, body) {
+  request.get('https://raw.githubusercontent.com/woodstockcs/APCSP-News/master/articles.txt', function (error, response, body) {
     if (!error && response.statusCode == 200) {
       parse(body, {columns: true, trim: true}, function(err, rows) {
         console.log();
